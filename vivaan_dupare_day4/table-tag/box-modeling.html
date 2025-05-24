@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Box model</title>
+        <style>
+            .container-one{
+                background-color:lightblue ;
+                width: 200px;
+                height: 200px;
+                border: solid;
+                border-color: red;
+                border-width: 1px;
+                border-radius:10px;
+              margin-top:100px;
+            }
+            .container-two{
+                width: 200px;
+                height: 200px;
+                background-color:lightcoral ;   
+                border-style:double;
+               
+                border-color: black;
+                border-width: 10px;
+                border-radius:10px;
+               
+            }
+            .container-three{
+                width: 800px;
+                height: 800px;
+                background-color:aqua ;
+              margin-left:300px;
+            }
+            .child-div-one{
+                width: 150px;
+                height: 150px;
+                border-style:solid;
+                border-color: black;
+                border-width: 3px;
+                margin-left: 200px;
+            }   
+            .child-div-two{
+                width: 150px;
+                height: 150px;
+                border-style:solid;
+                border-color: black;
+                border-width: 3px;
+                margin-left: 650px ;
+            }
+            .child-div-three{
+                width: 500px;
+                height: 150px;
+                border-style:solid;
+                border-color: black;
+                border-width: 3px;
+                margin-right:100px;;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-one"></div>
+        <br>
+        <div class="container-two"></div>
+        <br>
+        <div class="container-three">
+            <div class="child-div-one"></div>
+            <div class="child-div-two"></div>
+            <div class="child-div-three"></div>
+        </div>
+    </body>
+
+
+</html>

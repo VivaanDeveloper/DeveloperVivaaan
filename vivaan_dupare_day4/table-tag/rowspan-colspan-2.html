@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rowspan and Colspan Example</title>
+      <style>
+    table{
+              width: 100%;
+              height: 800px;
+              border: solid;
+            }
+            td{
+            border: solid;
+            border-color:black ;
+            }
+            .row-1{
+                height: 100px;
+            }
+      </style>
+    </head>
+    
+    <body>
+        <table>
+            <!-- row one -->
+            <tr>
+                <td class="row-1"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+             <!-- row two -->
+             <tr>
+                <td rowspan="2"></td>
+                <td colspan="3"></td>
+              
+            </tr>
+              <!-- row three -->
+              <tr>
+               
+                <td colspan="3"></td>
+              
+            
+            </tr>
+        
+        </table>
+    </body>
